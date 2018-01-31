@@ -25,7 +25,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         boolean arPavyko = false;
-        while (arPavyko == false) {
+        while (!arPavyko) {
             System.out.println("Iveskite skaiciu");
             try {
                 rezultatas = sc.nextFloat();
